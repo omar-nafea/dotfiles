@@ -1,0 +1,51 @@
+# Alacritty Configuration File
+
+# Font configuration
+font:
+  normal:
+    family: Noto Sans Nushu
+    style: Regular
+
+# Colors configuration using Catppuccin Mocha theme
+colors:
+  primary:
+    background: '0x1e1e2e' # Catppuccin Mocha background
+    foreground: '0xd9e0ee' # Catppuccin Mocha foreground
+
+  normal:
+    black:   '0x1e1e2e' # Catppuccin Mocha black
+    red:     '0xef5151' # Catppuccin Mocha red
+    green:   '0x9bd23d' # Catppuccin Mocha green
+    yellow:  '0xf7b14c' # Catppuccin Mocha yellow
+    blue:    '0x6e8fdc' # Catppuccin Mocha blue
+    magenta: '0xc77dff' # Catppuccin Mocha magenta
+    cyan:    '0x8d89f0' # Catppuccin Mocha cyan
+    white:   '0xd9e0ee' # Catppuccin Mocha white
+
+  bright:
+    black:   '0x4c4f69' # Catppuccin Mocha bright black
+    red:     '0xff6f6f' # Catppuccin Mocha bright red
+    green:   '0xb0e57c' # Catppuccin Mocha bright green
+    yellow:  '0xffd066' # Catppuccin Mocha bright yellow
+    blue:    '0x8ba1e7' # Catppuccin Mocha bright blue
+    magenta: '0xe0a6ff' # Catppuccin Mocha bright magenta
+    cyan:    '0x9a9cfc' # Catppuccin Mocha bright cyan
+    white:   '0xffffff' # Catppuccin Mocha bright white
+
+# Padding settings inside the window section
+#window:
+  #  padding:
+    # x: 10
+    #y: 10
+
+# Scrollback buffer size
+scrolling:
+  history: 10000
+
+# Advanced configuration options
+shell:
+  program: /bin/bash
+  args:
+    - --login
+
+
